@@ -1,3 +1,0 @@
-/home/tejaswini/GitHub/Point-Cloud-Processing-and-Visualization-with-PCL/build/CMakeFiles/rebuild_cache.dir
-/home/tejaswini/GitHub/Point-Cloud-Processing-and-Visualization-with-PCL/build/CMakeFiles/edit_cache.dir
-/home/tejaswini/GitHub/Point-Cloud-Processing-and-Visualization-with-PCL/build/CMakeFiles/PointClouds.dir
