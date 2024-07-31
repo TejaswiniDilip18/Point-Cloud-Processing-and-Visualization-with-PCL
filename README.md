@@ -10,13 +10,6 @@ A C++ project using the Point Cloud Library (PCL) to demonstrate point cloud pro
 - **Bounding Box Rendering**: Render bounding boxes around extracted clusters.
 - **Visualization**: Visualize point clouds and bounding boxes using PCL's visualization tools.
 
-## Requirements
-
-- PCL (Point Cloud Library)
-- Eigen
-- Boost
-- C++ Compiler
-
 ## Getting Started
 
 ### Installation
