@@ -19,9 +19,14 @@ A C++ project using the Point Cloud Library (PCL) to demonstrate point cloud pro
 
 ## Getting Started
 
-### Prerequisites
+### Installation
 
-Ensure you have PCL and its dependencies installed. You can follow the installation instructions from the [PCL website](http://www.pointclouds.org/).
+To build and run this project, you need to have PCL installed. You can install PCL on Ubuntu using the following commands:
+
+```sh
+sudo apt-get update
+sudo apt-get install libpcl-dev
+```
 
 ### Building the Project
 
@@ -52,21 +57,8 @@ Ensure you have PCL and its dependencies installed. You can follow the installat
 1. Ensure you have point cloud data files in the `data` directory.
 2. Run the executable:
     ```sh
-    ./Point-Cloud-Processing-and-Visualization-with-PCL
+    ./PointClouds
     ```
-
-### Code Overview
-
-- **main.cpp**: Contains the main function and logic for processing and visualizing point clouds.
-- **readPCD**: Template function to read PCD files.
-- **filterPCD**: Template function to filter point clouds using voxel grid and crop box filters.
-- **visualizePCD**: Template function to visualize point clouds.
-- **planeSegmentation**: Template function to segment planar regions using RANSAC.
-- **euclideanClusterSegmentation**: Template function to extract clusters using Euclidean clustering.
-- **bounding_box**: Template function to compute bounding box for clusters.
-- **render_box**: Template function to render bounding boxes around clusters.
-- **streamPcd**: Function to stream PCD files from a directory.
-- **process_pcd**: Function to process and visualize point clouds.
 
 ## Output
 
